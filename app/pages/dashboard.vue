@@ -74,7 +74,7 @@
                   icon="mdi-refresh" 
                   size="small" 
                   variant="text" 
-                  color="grey-darken-1" 
+                  color="grey-darken-10 " 
                   class="mr-2"
                   :loading="isRefreshing"
                   @click="refreshDashboardData"
@@ -122,7 +122,7 @@
                 block 
                 prepend-icon="mdi-account-cog" 
                 to="/users"
-                class="rounded-lg py-6 custom-shortcut-btn"
+                class="rounded-lg py-6 custom-shortcut-btn justify-start text-none"
               >
                 View User Controls
               </v-btn>
@@ -133,7 +133,7 @@
                 block 
                 prepend-icon="mdi-calculator" 
                 to="/calculate"
-                class="rounded-lg py-6 custom-shortcut-btn"
+                class="rounded-lg py-6 custom-shortcut-btn justify-start text-none"
               >
                 View Calculator
               </v-btn>
@@ -144,7 +144,7 @@
                 block 
                 prepend-icon="mdi-file-check-outline" 
                 to="/test"
-                class="rounded-lg py-6 custom-shortcut-btn"
+                class="rounded-lg py-6 custom-shortcut-btn justify-start text-none"
               >
                 View Prelim Exam
               </v-btn>
@@ -155,7 +155,7 @@
                 block 
                 prepend-icon="mdi-file-document-edit-outline" 
                 to="/midterm_exam"
-                class="rounded-lg py-6 custom-shortcut-btn"
+                class="rounded-lg py-6 custom-shortcut-btn justify-start text-none"
               >
                 View Midterm Exam
               </v-btn>
@@ -166,7 +166,7 @@
                 block 
                 prepend-icon="mdi-home-floor-b" 
                 to="/prelim"
-                class="rounded-lg py-6 custom-shortcut-btn"
+                class="rounded-lg py-6 custom-shortcut-btn justify-start text-none"
               >
                 View Prelim Project
               </v-btn>
