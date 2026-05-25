@@ -94,7 +94,7 @@
               </tr>
             </thead>
             <tbody>
-              <tr v-for="user in users.slice(0, 5)" :key="user.id">
+              <tr v-for="user in users.toReversed().slice(0, 5)" :key="user.id">
                 <td v-html="user.name"></td>
                 <td>{{ user.email }}</td>
                 <td>
